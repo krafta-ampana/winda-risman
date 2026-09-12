@@ -1,0 +1,36 @@
+body {
+  background-image: url("bg.jpeg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* custom scrollbar for dataContainer */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; 
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #E7E5E4; /* stone-200 */
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #D6D3D1; /* stone-300 */
+}
+
+@media (min-width: 1024px) {
+    .dataContainer {
+        min-height: 65vh;
+        max-height: 65vh;
+    }
+}
+@media (max-width: 1023px) {
+    .dataContainer {
+        min-height: 50vh;
+        max-height: 50vh;
+    }
+}
