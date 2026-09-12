@@ -1,6 +1,6 @@
 // Konfigurasi Tanggal Countdown Baru
 // Format: YYYY-MM-DDTHH:MM (Contoh: 2026-12-31T09:00)
-const TARGET_COUNTDOWN_DATE = "2026-09-17T17:30";
+const TARGET_COUNTDOWN_DATE = "2026-09-17T19:30";
 
 // Konfigurasi Nomor WhatsApp Baru
 // Contoh: "628123456789"
